@@ -7,7 +7,7 @@
 node_modules/
 /dist/
 
-*/cfg.php
+cfg.php
 
 # local env files
 .env.local
