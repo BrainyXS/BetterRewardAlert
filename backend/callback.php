@@ -30,4 +30,4 @@ $response = curl_exec($curl);
 $json = json_decode($response);
 $token = $json->access_token;
 
-echo $token;
+header("Location: " . cfg::FRONTEND_URL . "?token=" . $token);
